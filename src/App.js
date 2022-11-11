@@ -50,7 +50,7 @@ export default class App extends Component {
     
       axios({
         method:"GET",
-        url:`http://api.openweathermap.org/data/2.5/weather?q=${this.state.city},${this.state.country}&appid=7cc58b3c51c1874347ad80cd0591de59`
+        url:`http://api.openweathermap.org/data/2.5/weather?q=${this.state.city},${this.state.country}&appid=`
       })
       .then((response)=> {
 
