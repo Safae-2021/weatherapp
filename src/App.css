@@ -1,0 +1,133 @@
+.app{
+  width: 44%;
+  margin-left:27%;
+  margin-right:25%;
+  padding-left:6%;
+  padding-right:5%;
+  padding-bottom:5%;
+  margin-top:5%;
+  background-color: rgba(156, 145, 145, 0.438) ;
+  border-radius:5%;
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+color: white;
+position: absolute;
+
+}
+
+.head{
+padding-top:5%;
+margin-left:38%;
+font-size:xxlarger;
+ margin-top:5%;
+}
+.input{
+ margin-top:10%;
+ display: inline-flex;
+}
+.input , input ,button{
+  border: none;
+  height: 30px;
+  border-radius:20px ;
+
+ color: white;
+ margin-left: 5%;
+
+}
+
+
+.error{
+  margin-left:25%;
+  color:pink;
+  display:inline;
+  font-size:larger;
+  margin-top:50px;
+}
+.output{
+  height:150px;
+  width:450px;
+  display:inline;
+  justify-content:center;
+  font-size:25px;
+  margin-top:5%;
+  margin-left:30%;
+}
+.weather{
+  display:inline-flex;
+}
+.footer{
+  display:inline-flex;
+  background-color: rgba(50, 87, 87, 0.657);
+  width:95%;
+  border-radius:20px;
+}
+.p{
+  margin-left:15%;
+}
+@media screen and (max-width: 320px) {
+  .app{
+    width: 145%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-bottom:5%;
+    margin-top:30%;
+    background-color: rgba(156, 145, 145, 0.438) ;
+    border-radius:5%;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    color: white;
+    position: absolute;
+  }
+
+  .head{
+    padding-top:5%;
+    margin-left:45%;
+    font-size:xxlarger;
+     margin-top:5%;
+    }
+    .input{
+      margin-top:10%;
+      display: inline-flex;
+     }
+     .input , input ,button{
+      border: none;
+      height: 30px;
+      border-radius:20px ;
+     color: white;
+    
+    }
+    .input , #city ,#country,button{
+     margin-left: 5px;   
+     
+    }
+    .input  #city,#country{
+     
+      width: 140px;
+     
+    }
+    .error{
+      margin-left:5%;
+      color:pink;
+      display:inline;
+      font-size:larger;
+      margin-top:50px;
+    }
+    .output{
+      height:150px;
+      width:450px;
+      display:inline;
+      justify-content:center;
+      font-size:25px;
+      margin-top:5%;
+      margin-left:20%;
+    }
+    .footer{
+      display:inline-flex;
+      background-color: rgba(50, 87, 87, 0.657);
+      width:95%;
+      border-radius:20px;
+      padding-right: 20px;
+    }
+
+    .p{
+      margin-left:10%;
+    }
+}
